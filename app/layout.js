@@ -27,6 +27,7 @@ export default function RootLayout({ children }) {
           <ul className="flex gap-5">
             <Link href={"/"}>Home</Link>
             <Link href={"/about"}>About</Link>
+            <Link href={"/blogs"}>Blogs</Link>
           </ul>
         </nav>
         {children}
